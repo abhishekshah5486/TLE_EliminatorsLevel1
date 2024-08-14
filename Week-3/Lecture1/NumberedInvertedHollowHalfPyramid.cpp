@@ -5,7 +5,7 @@ int main(){
     int n;
     cin>>n;
 
-    for(int j=0; j<n; j++){
+    for(int j=n-1; j>=0; j--){
         if (j == (n-1)){
             for(int k=1; k<=(j+1); k++){
                 cout<<k<<" ";
